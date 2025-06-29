@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+class Student {
+private:
+    string name;
+
+public:
+    
+    void getName() {
+        cout << "Enter student name: ";
+        getline(cin, name);
+    }
+
+    // Method to display student name
+    void displayName() const {
+        cout << "Student name is: " << name << endl;
+    }
+};
+
+int main() {
+   
+    Student s;
+
+    s.getName();
+    s.displayName();
+
+    return 0;
+}
