@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+class Sample {
+    int a, b;
+
+public:
+    Sample(int x, int y) {
+        this->a = x;
+        this->b = y;
+        cout << "Constructor called." << endl;
+    }
+
+    void compare(Sample s) {
+        if (this->a + this->b > s.a + s.b)
+            cout << "Current object has greater sum." << endl;
+        else
+            cout << "Passed object has greater or equal sum." << endl;
+    }
+
+    void show() {
+        cout << "a = " << a << "\tb = " << b << endl;
+    }
+};
+
+int main() {
+    Sample s1(10, 20);
+    Sample s2(15, 10);
+
+    s1.show();
+    s2.show();
+
+    s1.compare(s2);
+
+    return 0;
+}
