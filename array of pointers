@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int nums[5];
+    int* ptrs[5];
+
+    for (int i = 0; i < 5; ++i) {
+        cout << "Enter number " << i + 1 << ": ";
+        cin >> nums[i];
+        ptrs[i] = &nums[i];
+    }
+
+    cout << "\nYou entered: ";
+    for (int i = 0; i < 5; ++i) {
+        cout << *ptrs[i] << " ";
+    }
+
+    return 0;
+}
