@@ -1,0 +1,10 @@
+def len_s(s):
+    count=0
+    for i in s:
+        if i !=' ':
+                count+=1
+        print('The total lenght of the string:', count)
+
+
+output = s='Anything here'
+         len_s(s)
