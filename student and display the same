@@ -1,0 +1,22 @@
+class Student:
+    def _init_(self, name, sex, course, result):
+        self.name = name
+        self.sex = sex
+        self.course = course
+        self.result = result
+
+    def display(self, name, sex, course, result):
+        self.name = name
+        self.sex = sex
+        self.course = course
+        self.result = result
+        print('Name:', name)
+        print('Sex:', sex)
+        print('Course:', course)
+        print('Result:', result)
+
+
+# Type this in output
+s1 = Student()
+s1.display("Joshua", "Male", "Python", "80.0")
+
