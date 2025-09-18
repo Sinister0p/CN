@@ -6,5 +6,5 @@ def len_s(s):
         print('The total lenght of the string:', count)
 
 
-output = s='Anything here'
+#output = s='Anything here'
          len_s(s)
