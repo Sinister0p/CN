@@ -1,0 +1,7 @@
+def main():
+    f = open("Joshua.txt", "a+")
+    f.write("oolani college")
+    f.close()
+
+if __name__ == "__main__":
+    main()
