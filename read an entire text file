@@ -1,0 +1,8 @@
+# Write a Python program to read an entire text file.
+
+def file_read(fname):
+    txt = open(fname)
+    print(txt.read())
+    txt.close()  # close the file after reading
+
+file_read('Joshua.txt')
