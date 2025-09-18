@@ -1,0 +1,7 @@
+def histogram(l1):
+    for i in l1:
+        print('*' * i)
+
+
+#output = histogram([2, 5, 3])
+
