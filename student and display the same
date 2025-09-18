@@ -16,7 +16,7 @@ class Student:
         print('Result:', result)
 
 
-# Type this in output
+#Output = # Type this in output
 s1 = Student()
 s1.display("Joshua", "Male", "Python", "80.0")
 
